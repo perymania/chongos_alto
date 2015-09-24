@@ -1,0 +1,81 @@
+
+body{
+	float: left;
+	margin: 0;
+	position: relative;
+	width: 100%;
+}
+header{
+	float: left;
+	margin: 0;
+	position: relative;
+	width: 100%;
+}
+.block-box{
+	float: left;
+	margin: 0;
+	position: relative;
+	width: 100%
+}
+.block{
+	border-radius: 0 7.5px 7.5px 0;
+	float: left;
+	height: 15px;
+	margin: 0;
+	position: relative;
+}
+.block-1{
+	background-color: #f00;
+	width: 8%;
+}
+.block-2{
+	background-color: #0f0;
+	width: 6%;
+	border-radius: 0;
+}
+.block-3{
+	background-color: #f00;
+	border-radius: 7.5px;
+	width: 30%;
+}
+.block-4{
+	background-color: #f00;
+	width: 6%;
+}
+.block-5{
+	background-color: #f00;
+	width: 10%;
+}
+.block-6{
+	background-color: #f00;
+	width: 12%;
+}
+.logo-box{
+	margin: 0;
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.logo-texto{
+	font-size: 1.5em;
+	font-family: sans-serif;
+}
+/*====================DISPOSITIVOS===================*/
+@media screen and (min-width: 480px){
+
+}
+@media screen and (min-width: 640px){
+	.logo-box{
+		width: 50%;
+	}
+}
+@media screen and (min-width: 780px){
+	
+}
+@media screen and (min-width: 1000px){
+	
+}
+@media screen and (min-width: 1400px){
+	
+}
